@@ -1,0 +1,38 @@
+/* CSS để hiển thị dropdown menu đẹp hơn */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f8f9fa;
+}
+
+/* CSS để làm cho phần "Xin chào, {username}" được in đậm */
+.dropdown.compare-dropdown li {
+  font-weight: bold;
+}
+  
